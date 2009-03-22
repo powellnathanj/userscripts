@@ -10,13 +10,14 @@
 
 // Change this to whatever you like
 // I am using the Sinatra app you can find at:
-//
-var webserviceSend = 'http://wherehaveyoubeen.nathanpowell.org/here'
+// http://github.com/slaney/wherehaveyoubeen
+var webserviceSend = 'http://wherehaveyoubeen.nathanpowell.org/here';
+var jqueryurl      = 'http://wtfhaveubeen.nathanpowell.org/js/jquery-latest.js';
 
 // Almost all of this was ruthelessly stolen with permission from:
 // http://joanpiedra.com/jquery/greasemonkey/
 var GM_JQ = document.createElement('script');
-GM_JQ.src = 'http://wtfhaveubeen.nathanpowell.org/js/jquery-latest.js';
+GM_JQ.src = jqueryurl;
 GM_JQ.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(GM_JQ);
 
