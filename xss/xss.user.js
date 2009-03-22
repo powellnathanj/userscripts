@@ -36,6 +36,6 @@ function runCode(){
           type: 'GET',
           dataType: 'jsonp',
           url: webserviceSend,
-          data: 'url=' + window.location
+          data: 'url=' + window.location,
           });
 }
