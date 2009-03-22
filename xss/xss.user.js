@@ -12,7 +12,7 @@
 // I am using the Sinatra app you can find at:
 // http://github.com/slaney/wherehaveyoubeen
 var webserviceSend = 'http://wherehaveyoubeen.nathanpowell.org/here';
-var jqueryurl      = 'http://wtfhaveubeen.nathanpowell.org/js/jquery-latest.js';
+var jqueryurl      = 'http://wherehaveyoubeen.nathanpowell.org/js/jquery-latest.js';
 
 // Almost all of this was ruthelessly stolen with permission from:
 // http://joanpiedra.com/jquery/greasemonkey/
