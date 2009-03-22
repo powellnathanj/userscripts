@@ -5,7 +5,13 @@
 // @author        Nathan Powell
 // @homepage      http://www.nathanpowell.org
 // @include       *
+// @exclude       nathanpowell.org
 // ==/UserScript==
+
+// Change this to whatever you like
+// I am using the Sinatra app you can find at:
+//
+var webserviceSend = 'http://wherehaveyoubeen.nathanpowell.org/here'
 
 // Almost all of this was ruthelessly stolen with permission from:
 // http://joanpiedra.com/jquery/greasemonkey/
@@ -28,7 +34,7 @@ function runCode(){
   $.ajax({
           type: 'GET',
           dataType: 'jsonp',
-          url: 'http://wtfhaveubeen.nathanpowell.org/here',
+          url: webserviceSend,
           data: 'url=' + window.location
           });
 }
